@@ -1,0 +1,13 @@
+.lower{display: flex; flex-direction:column; justify-content: space-evenly;}
+.g{position:relative}
+  .g p{position:absolute ; top:50% ; left:50%}
+  .g p {transform:translate(-50%,-50%)}
+ .g p {opacity: 0;}
+ .g:hover p {opacity: 1;}
+ .g:hover img{opacity: 0.2;}
+ a:link{
+    color: brown;
+}
+a:visited{
+    color: cornsilk;
+}
